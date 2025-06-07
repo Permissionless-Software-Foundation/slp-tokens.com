@@ -14,7 +14,7 @@ sidebar_position: 10
 - [psf-dex-dev](https://t.me/psf_dex_dev) is used for technical discussion around the [bch-dex](https://dex.fullstack.cash) DEX software, and its forks for the AVAX and eCash blockchains.<br /><br />
 
 ## Alternative Communication Channels
-PSF members are constantly evaluating alternative communication channels, in case Telegram ever becomes an unfriendly place for PSF members to communicate. The [psf-bch-wallet](https://github.com/Permissionless-Software-Foundation/psf-bch-wallet) has commands for sending email-like end-to-end-encrypted (e2ee) messages using a combination of BCH blockchain and IPFS network. This is the primary way the [Minting Council](/governance/minting-council) communicates. This is our primary fallback communication medium, but we are also keeping our eyes on the following communication technologies:
+PSF members are constantly evaluating alternative communication channels, in case Telegram ever becomes an unfriendly place for PSF members to communicate. The [psf-bch-wallet](https://github.com/Permissionless-Software-Foundation/psf-bch-wallet) has commands for sending email-like end-to-end-encrypted (e2ee) messages using a combination of BCH blockchain and IPFS network. This is the primary way the communicates. This is our primary fallback communication medium, but we are also keeping our eyes on the following communication technologies:
 
 - [Gitter.im](https://gitter.im/) has tight integration with GitHub and is a popular communication platform for software developers. There are services for creating bridges between Gitter and Telegram.<br /><br />
 - [Matrix](https://matrix.org/) is an anon-friendly chat technology. It's easy to create bridges between Matrix and Telegram.<br /><br />

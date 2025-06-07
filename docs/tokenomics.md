@@ -10,8 +10,7 @@ The PSF token is currently issued on the Bitcoin Cash (BCH) and eCash (XEC) bloc
   - [38e97c5d7d3585a2cbf3f9580c82ca33985f9cb0845d4dcce220cb709f9538b0](https://token.fullstack.cash/?tokenid=38e97c5d7d3585a2cbf3f9580c82ca33985f9cb0845d4dcce220cb709f9538b0)
 - XEC:
   - [73fcc96ad73948a102a8cabac8fe1808f94f1a8ec5536b0f4d7c524ac63fc44a](https://explorer.be.cash/tx/73fcc96ad73948a102a8cabac8fe1808f94f1a8ec5536b0f4d7c524ac63fc44a)
-
-The [Minting Council](/governance#the-minting-council) holds the minting baton, which controls the ability to mint new PSF tokens into existence. The baton is held in a multisignature wallet, and each member of the Minting Council holds a key.
+holds the minting baton, which controls the ability to mint new PSF tokens into existence. The baton is held in a multisignature wallet, and each member of the Minting Council holds a key.
 
 ## Token Liquidity and Peg
 

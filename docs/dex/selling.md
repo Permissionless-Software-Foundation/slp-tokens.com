@@ -2,7 +2,8 @@
 sidebar_position: 3
 ---
 
-# Minting Council
+# Selling
+
 This page contains guidance for members of the Minting Council, and describes the workflows required to participate. Working with multisignature wallets is complex, and as a result, each member of the Minting Council is required to be technically proficient. They should be experience JavaScript developers and be comfortable using node.js, npm, and Linux command-line tools.
 
 The Minting Council does not have any autonomy. They should never coordinate on their own volition, but only take direction from the results of a governance proposal, after being voted on by Governance NFT holders.
