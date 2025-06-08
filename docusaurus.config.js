@@ -7,15 +7,15 @@ const filecoin = require('./static/filecoin.json')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Permissionless Software Foundation',
-  tagline: 'Open Source Incentivized With Tokens',
-  url: 'https://permissionless-software-foundation.github.io',
+  title: 'SLP Tokens',
+  tagline: 'Simple Ledger Protocol Tokens',
+  url: 'https://slp-tokens.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/psf-logo.png',
   organizationName: 'permissionless-software-foundation', // Usually your GitHub org/user name.
-  projectName: 'psfoundation.info', // Usually your repo name.
+  projectName: 'slp-tokens.com', // Usually your repo name.
   trailingSlash: false,
 
   presets: [
@@ -26,7 +26,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Permissionless-Software-Foundation/psfoundation.info/tree/master',
+          editUrl: 'https://github.com/Permissionless-Software-Foundation/slp-tokens.com/tree/master',
           routeBasePath: '/'
         },
         blog: false,
@@ -41,9 +41,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'PSF',
+        title: 'SLP Tokens',
         logo: {
-          alt: 'PSF',
+          alt: 'SLP Tokens',
           src: 'img/psf-logo.png'
         },
         items: [
@@ -55,7 +55,7 @@ const config = {
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/Permissionless-Software-Foundation/psfoundation.info',
+            href: 'https://github.com/Permissionless-Software-Foundation/slp-tokens.com',
             label: 'GitHub',
             position: 'right'
           }
@@ -99,7 +99,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Permissionless-Software-Foundation/psfoundation.info'
+                href: 'https://github.com/Permissionless-Software-Foundation/slp-tokens.com'
               }
             ]
           }
