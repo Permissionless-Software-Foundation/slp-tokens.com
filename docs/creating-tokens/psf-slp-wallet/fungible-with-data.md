@@ -46,7 +46,7 @@ This step creates an initial transaction on the blockchain, setting up your MDA.
 
 #### 3. Create and Upload Your Token Icon
 
-Your token icon needs to be hosted on a network accessible by the SLP protocol, such as IPFS. The video demonstrates using explorer.psf.com to upload and pin files.
+Your token icon needs to be hosted on a network accessible by the SLP protocol, such as IPFS. The video demonstrates using [explorer.psffpp.com](https://explorer.psffpp.com) to upload and pin files.
 
 *   **Upload your token icon file** (e.g., an image) to the network. This process will provide you with an **IPFS Content ID (CID)** for your file.
 *   **Pin the file** to ensure it remains available on the network.
@@ -54,13 +54,13 @@ Your token icon needs to be hosted on a network accessible by the SLP protocol, 
 
 #### 4. Edit and Upload the Mutable Data File
 
-Mutable data is typically stored in a **JSON file**. The video suggests using templates available on a GitHub gist to simplify this process.
+Mutable data is typically stored in a **JSON file**. The video suggests [using templates available on a GitHub gist](https://gist.github.com/christroutner/d7a9b8875925ea656f512f6ba4d0084d) to simplify this process.
 
-*   **Edit the mutable data JSON template**. The most important fields for a token icon are `token icon URL` and `full-sized URL`.
-    *   The `token icon URL` is for a smaller thumbnail, while `full-sized URL` is for a larger image. If using the same image for both, populate both fields with the same URL.
-    *   You can also include a `description`, specify `media types` (e.g., image, video, music), and add any `arbitrary user data` in the `user data field`.
+*   **Edit the mutable data JSON template**. The most important fields for a token icon are `tokenIcon` and `fullSizedUrl`.
+    *   The `tokenIcon` is for a smaller thumbnail, while `fullSizedUrl` is for a larger image. If using the same image for both, populate both fields with the same URL.
+    *   You can also include a `about`, specify `mediaType` (e.g., image, video, music), and add any arbitrary user data in the `userData` field.
 *   **Save your edited mutable data JSON file**.
-*   **Upload this JSON file** to the network (e.g., via explorer.psf.com) just like you did with the token icon. This will give you a new **IPFS CID** for your mutable data file.
+*   **Upload this JSON file** to the network (e.g., via [explorer.psffpp.com](https://explorer.psffpp.com)) just like you did with the token icon. This will give you a new **IPFS CID** for your mutable data file.
 *   **Pin the mutable data file** and **record its IPFS CID**.
 
 #### 5. Point the MDA to the New Mutable Data
@@ -77,10 +77,10 @@ This step links your MDA to the mutable data file you just uploaded.
 While optional, uploading immutable data is good practice for keeping a permanent record of your initial intentions for the token.
 
 *   **Edit an immutable data JSON template**.
-    *   You can include a timestamp, `user data`, `JSON LD` (JSON Linked Data).
+    *   You can include a timestamp, `userData`, `jsonLd` (JSON Linked Data).
     *   It's useful to record the MDA and the initialization transaction ID from Step 2, and the first mutable data update transaction ID from Step 5 here.
 *   **Save your edited immutable data JSON file**.
-*   **Upload this JSON file** to the network (e.g., explorer.psf.com) and **record its IPFS CID**. You generally won't need the URL for this file directly, as it's often referenced by its CID.
+*   **Upload this JSON file** to the network and **record its IPFS CID**. You generally won't need the URL for this file directly, as it's often referenced by its CID.
 
 #### 7. Create the Fungible Token
 
@@ -98,7 +98,7 @@ Now you can create the actual SLP token, linking it to the mutable and immutable
 
 #### 8. Verify and Use Your Token
 
-After creation, you can check your token balance in the specified wallet. You can also send tokens to a web wallet, such as wallet.psfoundation.info, to observe them. Due to the decentralized nature of the network, it might take a few minutes for the token icon and other information to fully propagate and display.
+After creation, you can check your token balance in the specified wallet. You can also send tokens to a web wallet, such as [wallet.psfoundation.info](https://wallet.psfoundation.info), to observe them. Due to the decentralized nature of the network, it might take a few minutes for the token icon and other information to fully propagate and display.
 
 ### Updating Mutable Data After Token Creation
 
@@ -121,4 +121,4 @@ A key advantage of this system is that **all past updates remain recorded on the
 
 ### A Simpler Alternative
 
-The process described above involves several technical steps. If this seems too complex, an alternative exists: tokentiger.com. As of the video's recording, TokenTiger did not support fungible tokens but was working on it. It provides a more user-friendly interface that hides much of the underlying complexity.
+The process described above involves several technical steps. If this seems too complex, an alternative exists: [TokenTiger.com](https://tokentiger.com). As of the video's recording, TokenTiger did not support fungible tokens but was working on it. It provides a more user-friendly interface that hides much of the underlying complexity.
