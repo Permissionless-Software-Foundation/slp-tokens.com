@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
-slug: /token-tiger
+sidebar_position: 1
+slug: /token-tiger-simple-nfts
 ---
 
-# Token Tiger
+# Token Tiger Simple NFTs
 
 [TokenTiger.com](https://tokentiger.com) is a simple web application for making SLP NFTs.
 
